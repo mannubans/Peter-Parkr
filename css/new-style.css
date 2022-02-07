@@ -1,0 +1,3071 @@
+@font-face {
+  font-family: "Nexa";
+  src: url(../nexa/nexabold.otf);
+}
+@font-face {
+  font-family: "Nexalight";
+  src: url(../nexa/nexalight.otf);
+}
+body h1, h2 {
+  font-family: "Nexa";
+  font-size: 14px !important;
+}
+body p {
+  font-family: "Nexalight";
+  font-size: 14px !important;
+}
+.col-lg-12 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+/*Common*/
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: rgb(43, 43, 115);
+}
+.navbar-brand .logotext-image{
+  width: 260px;
+}
+.navbar-brand .logoimage{
+  width: 60px;
+  margin-right: 10px;
+}
+.main_menu .main-menu-item ul li .nav-link {
+  color: #2b2b73;
+  font-weight: 600;
+  letter-spacing: 10px;
+}
+.menu_fixed {
+  position: fixed;
+  z-index: 9999 !important;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+  top: 0;
+}
+.navbar-nav a {
+  font-weight: 700;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #24d2ca;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #24d2ca;
+}
+/* .navbar-nav .active a:before {
+  content: "";
+  left: 63% !important;
+  width: 37% !important;
+  position: absolute;
+  top: 37px !important;
+  height: 2px !important;
+  background: #24d2ca;
+  transform: translate(-50%, -50%);
+} */
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 8px;
+  padding-left: 24px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 16px;
+  text-shadow: 2px 5px 4px #000000;
+}
+.dropdown-menu {
+  margin: 5px 26px 0px;
+}
+.bg-dark {
+  background-color: #202735!important;
+}
+.logo-name {
+  color: white;
+  letter-spacing: 8px;
+}
+.logo-section {
+  background: #141821;
+}
+.logo-image {
+  width: 260px !important;
+}
+.logo-peter .logo-text {
+  width: 440px;
+  margin-bottom: 100px;
+}
+.what-we-do {
+  position: relative;
+}
+.what-we-do .logo-peter {
+  position: absolute;
+  color: #ffffff;
+  width: 100%;
+  top: 0;
+}
+.logo-peter {
+  width: 100%;
+}
+.logo-peter .center {
+  padding: 0px 40px 10px 40px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
+}
+.what-we-do .logo-peter h2 {
+  letter-spacing: 8px;
+  font-size: 28px !important;
+  color: white;
+  margin-bottom: 85px;
+}
+.what-we-do .logo-peter h1 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 60px !important;
+}
+.what-we-do .logo-peter p {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 28px !important;
+}
+.what-we-do .what-we-head {
+  color: #ffffff;
+  width: 100%;
+  position: absolute;
+  top: 94%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  text-align: right;
+}
+.what-we-do .what-we-head h1 {
+  color: white;
+  font-size: 95px !important;
+  margin-right: 40px;
+}
+.what-we-do-para {
+  background: #141821;
+}
+.what-we-do-para .what-we-para p {
+  margin-bottom: 25px;
+  color: white;
+  text-align: justify;
+  line-height: 1.2;
+  font-size: 28px !important;
+}
+.what-we-do-para .what-we-para {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 20%;
+  margin-right: 40px;
+}
+.what-we-do-para .what-we-para button {
+  background: transparent;
+  border: 2px solid #624dc6;
+  width: 160px;
+  border-radius: 10px;
+  padding: 6px 0px;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.cars {
+  position: relative;
+}
+.cars .head-para {
+  position: absolute;
+  color: #ffffff;
+  text-align: left;
+  top: 74%;
+  margin-left: 39px;
+}
+.cars .head-para h1 {
+  font-size: 100px !important;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.cars .head-para p {
+  font-size: 35px !important;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.cars .head-para button {
+  background: transparent;
+  color: #000;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 4px 0px;
+  font-size: 20px;
+  width: 160px;
+  border: 2px solid #000;
+}
+.how-it-works {
+  position: relative;
+  background: #e4a132;
+}
+.how-it-works-img-section {
+  position: relative;
+}
+.groupone {
+  width: 50%;
+}
+.how-it-works .triple-image {
+margin-left: 40px;
+}
+.centerdiv {
+  margin: auto;
+}
+.rightdiv {
+  float: right;
+}
+.yellow {
+  position: relative;
+}
+.yellow .head-para {
+  position: absolute;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  top: 40%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+.yellow .head-para h1 {
+  color: #fff;
+  font-size: 217px !important;
+  line-height: 0.6;
+}
+.yellow .head-para p {
+  font-size: 60px !important;
+  color: #fff;
+  font-weight: 700;
+}
+.yellow .service-text {
+  position: absolute;
+  color: #ffffff;
+  bottom: 8%;
+  right: 0;
+  margin-right: 40px;
+}
+.yellow .service-text h1 {
+  color: white;
+  font-size: 110px !important;
+}
+.yellow .service-text button {
+  background: transparent;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  font-weight: 700;
+  width: 150px;
+  letter-spacing: 1px;
+  padding: 8px 0px;
+  font-size: 18px;
+}
+.pink {
+  background: #d62570;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+  position: relative;
+}
+.pink .services {
+  padding: 0px 300px 50px 0px;
+}
+.pink .services h1 {
+  color: white;
+  font-size: 70px !important;
+}
+.pink .services button {
+  background: transparent;
+  border-color: #ffffff;
+}
+.if-there {
+  position: relative;
+}
+.if-there .head-para {
+  position: absolute;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  top: 41%;
+  left: 0;
+    right: 0;
+}
+.if-there .head-para h1 {
+  color: #fff;
+  line-height: 0.6;
+  font-size: 140px !important;
+}
+.if-there .head-para p {
+  font-size: 60px !important;
+  color: white;
+  font-weight: 700;
+}
+.pink-logo {
+  text-align: center;
+}
+.pink-logo p {
+  font-size: 30px !important;
+  color: white;
+  font-weight: 600;
+}
+.pink-logo h1 {
+  color: white;
+  font-size: 35px !important;
+  letter-spacing: 1px;
+}
+.youtube-logo img {
+  width: 180px;
+}
+.hass{
+  margin-top: -80px;
+}
+.hassle-free {
+  position: relative;
+  background: #222836;
+}
+.hassle-free .hassle-free-head {
+  border-bottom: 3px solid #7b7f87;
+}
+.hassle-free .hassle-free-head h1 {
+  color: white;
+  margin-bottom: 0px;
+  font-size: 42px !important;
+  text-align: left !important;
+}
+.hassle-free .hassle-free-head p {
+  margin-bottom: 10px;
+  text-align: left !important;
+  font-size: 28px !important;
+  color: white;
+  letter-spacing: 1px;
+}
+.hassle-free .hassle-free-head .safe {
+  font-size: 32px !important;
+}
+.hassle-free .hassle-free-head .learn-more {
+  color: white;
+  border: 1px solid #ffffff;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-weight: 700;
+}
+.hassle-free .visacard{
+  padding-top: 10px; 
+}
+/* footer */
+.footer-prkr {
+  background-color: #141821;
+}
+.footer-prkr .footer-head {
+  padding: 60px 34px;
+}
+.footer-prkr .footer-head h1,h2 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 28px !important;
+}
+.footer-prkr .footer-head h1 {
+  margin-bottom: 45px;
+  font-size: 50px !important;
+}
+.footer-prkr .footer-head .what-are {
+  letter-spacing: 4px;
+}
+.footer-prkr .footer-head .stay {
+  font-size: 50px !important;
+}
+.social-icons {
+  margin-bottom: 80px;
+}
+.footer-prkr .icons ul li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid white;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.footer-prkr .icons {
+  margin-bottom: 80px;
+}
+.footer-prkr .icons ul li i {
+  line-height: 2;
+  font-size: 24px;
+  color: #24d2ca;
+}
+.footer-prkr .input-email {
+  height: 1.75rem;
+  margin: 16px 0;
+  font-size: 16px;
+  font-weight: 300;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 1.875rem;
+  padding-left: 15px;
+  background: none;
+  width:60%;
+}
+.footer-prkr .subscribe ::placeholder{
+  color:#fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.footer-prkr .subscribe-btn {
+  outline: none;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 1.875rem;
+  padding: .65rem 1.5rem;
+  background: #6546e4;
+  font-size: 18px;
+  float: right;
+  margin: 4px 4px;
+  border: .125rem solid #5631d3d4;
+  transition: all .3s ease-in;
+}
+.footer-prkr .subscribe ::placeholder{
+  color:#fff;
+}
+.footer-prkr .subscribe{
+    border-radius: 50px;
+    border: 3px solid white;
+    margin-bottom: 68px;
+}
+.footer-prkr .copy-right {
+  border-top: 3px solid white;
+  padding: 20px 0px 20px;
+  /* margin-right: 60px;
+  margin-left: 60px; */
+}
+.footer-prkr .copy-right p {
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #00cab6;
+}
+.btn-store {
+  color: #777777;
+  min-width: 210px;
+  padding: 10px 10px 10px 15px!important;
+  border-color: #dddddd !important;
+  border-radius: 15px;
+}
+.btn-store:hover {
+  background: linear-gradient(to right, #0e8da5 0%, #1ca5be 68%, #24d2ca 100%);
+  background: -webkit-linear-gradient(to right, #0e8da5 0%, #1ca5be 68%, #24d2ca 100%);
+  transition: all .4s linear;
+}
+.btn-store {
+  background: linear-gradient(to right, #24d2ca 0%, #1ca5be 68%, #0e8da5 100%);
+  background: -webkit-linear-gradient(to right, #24d2ca 0%, #1ca5be 68%, #0e8da5 100%);
+  margin-right: 15px;
+}
+.btn-store .btn-label,
+.btn-store .btn-caption {
+  display: block;
+  text-align: left;
+  line-height: 1;
+  color: white;
+}
+.apple-logo {
+  color: white;
+  margin-right: 7px !important;
+}
+.play-store {
+  color: white;
+  margin-right: 7px !important;
+}
+.btn-store .btn-caption {
+    font-size: 23px!important;
+}
+.google-play {
+  font-size: 23px !important;
+}
+.get-it {
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+/* privacy policy */
+.privacy {
+  background: #141821;
+  padding-bottom: 100px;
+}
+.privacy-main {
+  background: #141821;
+  padding-bottom: 85px;
+}
+.privacy-main .privacy-main-head h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 100px !important;
+}
+.privacy .privacy-heading {
+  margin-bottom: 80px;
+}
+.privacy .privacy-heading h1 {
+  color: white;
+  font-size: 80px !important;
+  text-align: center;
+}
+.privacy .privacy-content {
+  margin-bottom: 25px;
+  padding: 0 80px;
+}
+.privacy .privacy-content .normal-para {
+  color: white;
+  font-size: 30px !important;
+  line-height: 1.4;
+}
+.privacy .privacy-content .main-para {
+  color: white;
+  font-size: 40px !important;
+  margin-bottom: 25px;
+  font-weight: 900;
+}
+.terms {
+  background: #141821;
+  padding-bottom: 85px;
+}
+.terms .terms-head h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 150px !important;
+}
+.terms .terms-head{
+  padding: 0 80px;
+}
+
+
+
+
+
+/* reachus  */
+.reachus {
+  background: #141821;
+}
+.reachus .contact-head h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 210px !important;
+  text-transform: lowercase;
+}
+.reachus-image {
+  background: #141821;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.reachus-image .square {
+  padding: 50px 50px;
+  text-align: center;
+}
+.reachus-image .circle {
+  padding: 50px 50px;
+  text-align: center;
+}
+.reachus-image .cone {
+  padding: 50px 50px;
+  text-align: center;
+}
+.reach-phone-image {
+  background: #222836;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.reach-phone-image .hand,.blank {
+  padding: 50px 50px;
+}
+.reach-phone-image .form-sub-btn {
+  padding: 28px 0px;
+}
+.reach-phone-image .form-sub-btn button {
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 110px;
+}
+.reach-phone-image .blank .form {
+  border: 6px solid #07dfc8;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.reach-phone-image .blank .form h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 33px !important;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+}
+.reach-phone-image .blank .form input {
+  background: transparent;
+  box-shadow: none;
+  color: #fff;
+  border: transparent;
+  padding-bottom: 20px!important;
+}
+.reach-phone-image .blank .form label {
+  background: transparent;
+  box-shadow: none;
+  color: #fff !important;
+  font-size: 24px;
+  border: transparent;
+  text-align: left;
+}
+.reach-phone-image .blank .form .text-area {
+  background: transparent;
+  border: 3px solid #fff;
+  border-radius: 0px 40px 40px;
+  color: #fff;
+}
+.reach-phone-image .blank .form .marginbottom {
+  margin-bottom: 10px;
+}
+.reach-phone-image .blank .form ::placeholder {
+  color: #fff !important;
+  font-size: 24px;
+}
+.reach-phone-image .blank .form .borderbottom {
+  border-bottom: 2px solid #fff;
+  margin-bottom: 68px;
+}
+
+.footer-prkr .form-inline .form ::placeholder {
+  color: #fff !important;
+}
+
+
+
+
+
+
+/* aboutus */
+.aboutus {
+  background: #141821;
+  padding-bottom: 85px;
+}
+.aboutus .contact-head h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 210px !important;
+}
+.aboutus-image {
+  background: #141821;
+}
+.aboutus-image .card {
+  width: 100%;
+  min-height: 400px;
+  border-radius: 50px;
+  transition: 0.5s;
+  background: linear-gradient(62deg, #24d9ca, #20acc5);
+  background: -webkit-linear-gradient(62deg, #24d9ca, #20acc5);
+}
+.aboutus-image .card .box {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  box-sizing: border-box;
+  width: 100%;
+}
+.aboutus-image .box .name {
+  font-size: 28px !important;
+  color: #fff;
+}
+.aboutus-image .box .title {
+  font-size: 28px !important;
+  color: #fff;
+}
+.aboutus-image .box .inner-image {
+  background: #dae4ec;
+  padding-top: 112px;
+  border-radius: 50px;
+  height: 320px;
+  margin-bottom: 30px;
+  box-shadow: 0px 10px 17px -6px #313a43;
+}
+.content-sect {
+  background: #141821;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.content-sect .content p {
+  font-size: 36px !important;
+  line-height: 1.4;
+  color: #fff;
+  text-align: justify;
+}
+.aboutus-logo{
+  background: #141821;
+}
+.aboutus-logo .logo-peter h2 {
+  letter-spacing: 19px;
+  font-size: 29px !important;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*SERVICES*/
+.service-page {
+  position: relative;
+  background: #d62570;
+}
+.service-head {
+  position: absolute;
+  width: 100%;
+  top: 16%;
+  z-index: 1;
+  left:0;
+  right:0;
+  text-align: center;
+}
+.service-page .service-head h1 {
+  font-size: 210px !important;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+.service-page .service-image {
+  width: 100%;
+  background-color: #d52570;
+  padding-bottom: 45px;
+  padding-left: 50px;
+    padding-right: 50px;
+}
+.service-page .service-image .key-aed h1 {
+  letter-spacing: 1px;
+  font-size: 40px !important;
+  color:#fff;
+}
+.service-page .service-image .keys .key-image {
+  float: right;
+  position: absolute;
+  text-align: right;
+  top: 40%;
+  right: 20%;
+}
+.service-page .service-image .keys .key-aed {
+  float: left;
+  margin-bottom: 30px;
+}
+.service-page .service-image .key-image img {
+  width: 150px;
+}
+.service-page .service-image .key-image h1 {
+  color: #fff;
+  font-size: 40px !important;
+  letter-spacing: 1px;
+}
+.service-page .service-content {
+  width: 100%;
+  background: #d52570;
+  text-align: center;
+  padding-bottom: 45px;
+  clear: both;
+}
+.service-page .service-content p {
+  color: #fff;
+  line-height: 1.2;
+  font-size: 40px !important;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.service-page .service-image-second {
+  width: 100%;
+  background: #d52570;
+  padding-bottom: 45px;
+}
+.service-page .service-image-second .key-aed {
+  float: right;
+  padding-top: 150px;
+}
+.service-page .service-image-second .key-image img {
+  width: 150px;
+}
+.service-page .service-content-second {
+  width: 100%;
+  text-align: center;
+  background: #d52570;
+  clear: both;
+}
+.service-page .service-content-second p {
+  color: #fff;
+  line-height: 1.2;
+  font-size: 40px !important;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.service-resp{
+  display: none;
+}
+.service-page .logo-peter {
+  position: absolute;
+  color: #ffffff;
+  width: 100%;
+  top: 0;
+}
+.service-page .logo-peter h2 {
+  letter-spacing: 19px;
+  font-size: 29px !important;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* how it works */
+.how {
+  position: relative;
+}
+.how .how-head {
+  position: absolute;
+  width: 100%;
+  top: 9%;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  text-align: center;
+}
+.how .how-head h1 {
+  font-size: 240px !important;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+.how .logo-peter {
+  position: absolute;
+  color: #ffffff;
+  width: 100%;
+  top: 0;
+}
+.how .logo-peter h2 {
+  letter-spacing: 19px;
+  font-size: 29px !important;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 85px;
+}
+.how .circle-image {
+  width: 100%;
+  background: #e4a031;
+}
+.how .circle-image .mobile-line{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+/* business */
+.valet-business {
+  position: relative;
+  background: #141821;
+}
+.valet-business .valet-business-head {
+  position: absolute;
+  color: #ffffff;
+  width: 100%;
+  top: 0;
+}
+.valet-business .valet-business-head h1 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 120px !important;
+}
+.what-we-can {
+  background: #141821;
+}
+.what-we-can-head {
+  padding: 70px 0px;
+  padding-left: 40px;
+}
+.what-we-can-head h1 {
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 180px !important;
+}
+.building-section {
+  background: #0ea8c4;
+}
+.building-section .building-content p {
+  font-size: 40px !important;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  font-weight: 700;
+  text-align: justify;
+}
+.building-section .building-content{
+  padding-left: 40px;
+}
+.building-section .building-image{
+padding-right: 40px;
+}
+.vehicle-section {
+  position: relative;
+}
+.vehicle-section .vehicle-head {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  text-align: right;
+  padding-right: 40px;
+}
+.vehicle-section .vehicle-head h1 {
+  color: #fff;
+  font-size: 180px !important;
+}
+.mobile-comp {
+  background: #141821;
+}
+.mobile-comp .mobile-comp-image {
+  width: 100%;
+  text-align: right;
+  padding-top: 50px;
+  padding-right: 40px;
+}
+.valet-operation {
+  background: #00e0c8;
+  padding: 0 40px;
+}
+.valet-operation .valet-content-head h1 {
+  font-size: 74px !important;
+  line-height: 1;
+  color: #fff;
+}
+.valet-operation .valet-content-para p {
+  font-size: 40px !important;
+  color: #fff;
+  text-align: justify;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.say-good-bye {
+  background: #6545e4;
+  padding: 0 40px;
+}
+.say-good-bye .say-good-head h1 {
+  font-size: 74px !important;
+  line-height: 1;
+  color: #fff;
+}
+.say-good-bye .say-good-para p {
+  font-size: 40px !important;
+  color: #fff;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  font-weight: 700;
+}
+.say-good-bye .say-good-para {
+  margin-bottom: 43px;
+}
+.say-good-bye .say-good-para-head h1 {
+  font-size: 50px !important;
+  color: #fff;
+}
+.meet-the-demand {
+  background: #d52570;
+  padding: 0 40px;
+}
+.meet-the-demand .meet-head h1 {
+  font-size: 74px !important;
+  line-height: 1;
+  color: #fff;
+}
+.meet-the-demand .meet-para {
+  margin-bottom: 130px;
+}
+.meet-the-demand .meet-para p {
+  font-size: 40px !important;
+  color: #fff;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  font-weight: 700;
+}
+.meet-the-demand .meet-para-head h1 {
+  font-size: 50px !important;
+  color: #fff;
+}
+.tripple-car {
+  background: #e4a031;
+  padding: 0 40px;
+}
+.tripple-car .tripple-car-head h1 {
+  font-size: 74px !important;
+  line-height: 1;
+  color: #fff;
+}
+.tripple-car .tripple-car-image {
+  padding-top: 60px;
+}
+.tripple-car .tripple-car-para {
+  margin-bottom: 50px;
+}
+.tripple-car .tripple-car-para p {
+  font-size: 40px !important;
+  color: #fff;
+  letter-spacing: 2px;
+  text-align: justify;
+  line-height: 1.6;
+  font-weight: 700;
+}
+.tripple-car .tripple-car-para-head h1 {
+  font-size: 50px !important;
+  color: #fff;
+}
+.maintain-best {
+  background: #0086a1;
+  padding: 0 40px;
+}
+.maintain-best .maintain-best-head h1 {
+  font-size: 74px !important;
+  line-height: 1;
+  color: #fff;
+}
+.maintain-best .maintain-best-para p {
+  font-size: 40px !important;
+  color: #fff;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 1.6;
+  font-weight: 700;
+}
+.interest {
+  background: #141821;
+  padding-top: 100px;
+}
+.interest .interest-head h1 {
+  letter-spacing: 2px;
+  font-size: 49px !important;
+  color: #fff;
+}
+.business-cones {
+  background: #141821;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.business-cones .square {
+  padding: 50px 50px;
+}
+.business-cones .circle {
+  padding: 50px 50px;
+}
+.business-cones .cone {
+  padding: 50px 50px;
+}
+/* end of business */
+
+
+
+
+
+
+
+
+
+@media (max-width:320px) {
+  .navbar-dark .navbar-brand .logotext-image {
+    max-width: 100%;
+  }
+  .aboutus-logo {
+    padding-bottom: 35px;
+}
+  .privacy .privacy-content {
+    padding: 0;
+}
+  .what-we-do .what-we-head h1 {
+    z-index:1;
+}
+  .navbar-brand .logotext-image{
+    width: 184px;
+  }
+  .navbar-brand .logoimage {
+    width: 16%;
+    margin-right:0;
+  }
+  .navbar-brand {
+    margin-right: 0px;
+  }
+  .navbar {
+    padding: 14px 10px;
+  }
+  .navbar-nav {
+    display: inline-block;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+     padding-right: 0px; 
+    padding-left: 0px;
+  }
+  .navbar-nav .active a:before {
+    left: 50%!important ;
+  }
+  .navbar-dark p {
+    letter-spacing: 2px;
+  }
+  .pink .services {
+    padding: 0px;
+  }
+  .pink .pink-box {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 424px){
+  .footer-prkr .input-email {
+    width: 26%;
+    padding-left:0px;
+}
+.what-we-do .what-we-head h1 {
+  margin-right: 0px;
+}
+.what-we-do-para .what-we-para {
+  margin-left: 0;
+  margin-right: 0px;
+}
+.valet-business .valet-business-head h1 {
+  font-size: 18px !important;
+}
+.building-section .building-content {
+  padding-left: 0px;
+}
+.vehicle-section .vehicle-head {
+  padding-right: 0px;
+}
+.mobile-comp .mobile-comp-image {
+  padding-right: 0px;
+}
+.valet-operation {
+  padding: 0px;
+}
+.say-good-bye {
+  padding: 0px;
+}
+.meet-the-demand {
+  padding: 0px;
+}
+.tripple-car {
+  padding: 0px;
+}
+.maintain-best {
+  padding: 0px;
+}
+.terms .terms-head h1 {
+  font-size: 35px !important;
+}
+.terms {
+  padding-bottom: 35px;
+}
+.terms .terms-head {
+  padding: 0;
+}
+  .hass {
+    margin-top: 0px;
+}
+.aboutus-logo {
+  padding-bottom: 35px;
+}
+.privacy-main {
+  padding-bottom: 35px;
+}
+.privacy .privacy-content {
+  padding: 0;
+}
+.privacy-main .privacy-main-head h1 {
+  font-size: 30px !important;
+}
+.navbar-brand .logotext-image {
+  width: 185px;
+}
+.navbar-brand .logoimage {
+  width: 14%;
+  margin-right: 10px;
+}
+.navbar{
+  flex-wrap: nowrap;
+}
+.footer-prkr .form-inline .form ::placeholder {
+  color: #fff !important;
+  font-size: 10px!important;
+}
+.reach-phone-image .blank .form ::placeholder {
+  color: #fff !important;
+  font-size: 18px;
+}
+.reach-phone-image .blank .form label {
+  font-size: 18px;
+}
+.footer-prkr .form-inline .form input{
+  padding-left:10px;
+}
+.footer-prkr .copy-right p {
+  text-align: center;
+}
+.privacy .privacy-content .normal-para {
+  font-size: 14px !important;
+  line-height: 1.4;
+  padding-left: 15px;
+  letter-spacing: 1px;
+}
+.privacy .privacy-content .main-para {
+  font-size: 18px !important;
+  margin-bottom: 25px;
+  font-weight: 900;
+  padding-left: 15px;
+}
+.privacy {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+  .navbar-collapse {
+    z-index: 9999 !important;
+    position: absolute;
+    left: 0;
+    top: 56px;
+    width: 100%;
+    background-color: black;
+    text-align: center !important;
+  }
+  .navbar-nav{
+    display: inline-block;
+  }  
+  .navbar-dark .navbar-brand {
+    margin-right: -32px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+.footer-prkr .copy-right {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.footer-prkr .copy-right .text-right{
+  text-align: center!important;
+}
+.footer-prkr .footer-head .social-icons .btn-store{
+  margin-bottom: 15px;
+}
+.logo-image {
+  width: 180px !important;
+}
+.logo-peter .center {
+  padding: 0px 40px 5px 40px;
+  width: 48%;
+  margin-bottom: 0px;
+}
+.logo-peter .logo-text {
+  width: 200px;
+  margin-bottom: 12px;
+}
+.what-we-do .logo-peter h1 {
+  letter-spacing: 2px;
+  font-size: 14px !important;
+}
+.what-we-do .logo-peter h2 {
+  letter-spacing: 1px;
+  font-size: 10px !important;
+}
+.footer-prkr .footer-head .what-are {
+  letter-spacing: 1px;
+}
+.footer-prkr .footer-head h1 {
+  margin-bottom: 45px;
+  font-size: 23px !important;
+}
+.footer-prkr .footer-head .stay {
+  font-size: 23px !important;
+}
+.footer-prkr .footer-head h2 {
+  letter-spacing: 2px;
+  font-size: 16px !important;
+}
+.footer-prkr .sbmt-btn {
+  padding: 0px;
+  width: 30%;
+  height: 25px;
+  right: 74px;
+}
+.footer-prkr .icons ul li {
+  width: 40px;
+  height: 40px;
+  margin-right: 7px;
+}
+.footer-prkr .icons ul li i {
+  line-height: 2;
+  font-size: 16px;
+}
+.footer-prkr .icons {
+  margin-bottom: 45px;
+}
+.social-icons {
+  margin-bottom: 45px;
+}
+.what-we-do .what-we-head h1 {
+  font-size: 24px !important;
+}
+.what-we-do-para .what-we-para p {
+  line-height: 1.4;
+  font-size: 14px !important;
+}
+.how-it-works {
+  padding-top: 70px;
+}
+
+.cars .head-para {
+  top: 64%;
+  z-index: 1;
+  margin-left:0;
+  padding-left:15px;
+}
+.cars .head-para h1 {
+  font-size: 24px !important;
+  letter-spacing: 0px;
+}
+.cars .head-para p {
+  font-size: 16px !important;
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+.cars .head-para button {
+  height: 30px;
+  padding: 0px 0px;
+  font-size: 16px;
+  width: 132px;
+}
+.yellow .head-para {
+  top: 36%;
+}
+.yellow .head-para h1 {
+  font-size: 24px !important;
+}
+.yellow .head-para p {
+  font-size: 14px !important;
+}
+.yellow .service-text {
+  bottom: -3%;
+  z-index: 1;
+  margin-right:0;
+  padding-left:15px;
+}
+.yellow .service-text h1 {
+  font-size: 34px !important;
+}
+.what-we-do-para .what-we-para button {
+  width: 120px;
+  font-size: 14px;
+}
+.yellow .service-text button {
+  padding: 1px 5px;
+  width: 136px;
+  font-size: 15px;
+}
+.youtube-logo img {
+  width: 100px;
+}
+.pink {
+  padding: 50px 0px 0px 0px;
+}
+.pink-logo p {
+  font-size: 14px !important;
+  letter-spacing: 1px;
+}
+.pink-logo h1 {
+  font-size: 24px !important;
+}
+.if-there .head-para {
+  top: 38%;
+}
+.if-there .head-para h1 {
+  font-size: 23px !important;
+}
+.if-there .head-para p {
+  font-size: 14px !important;
+}
+.hassle-free .hassle-free-head {
+  padding-left: 15px;
+}
+.hassle-free .hassle-free-head h1 {
+  font-size: 24px !important;
+}
+.hassle-free .hassle-free-head .safe {
+  font-size: 14px !important;
+}
+.hassle-free .hassle-free-head p {
+  font-size: 14px !important;
+  letter-spacing: 1px;
+}
+.hassle-free .visacard {
+  padding: 10px 10px;
+}
+.what-we-can-head {
+  padding-left: 15px!important;
+}
+.what-we-can-head h1 {
+  font-size: 24px !important;
+}
+.strip{
+  margin-top: -1px;
+}
+.building-section .building-content p {
+  font-size: 14px !important;
+}
+.building-image{
+  padding: 20px 60px;
+}
+.vehicle-section .vehicle-head h1 {
+  font-size: 24px !important;
+}
+.valet-operation .valet-content-head h1 {
+  font-size: 24px !important;
+}
+.valet-image{
+  padding: 20px 60px;
+}
+.valet-operation .valet-content-para p {
+  font-size: 14px !important;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+.say-good-bye .say-good-head h1 {
+  font-size: 24px !important;
+}
+.say-image{
+  padding: 20px 60px;
+}
+.say-good-bye .say-good-para p {
+  font-size: 14px !important;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+.meet-the-demand .meet-head h1 {
+  font-size: 24px !important;
+}
+.meet-image{
+  padding: 20px 60px;
+}
+.meet-the-demand .meet-para p {
+  font-size: 14px !important;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+.meet-the-demand .meet-para {
+  margin-bottom: 70px;
+}
+.meet-the-demand .meet-para-head h1 {
+  font-size: 24px !important;
+}
+.say-good-bye .say-good-para-head h1 {
+  font-size: 23px !important;
+}
+.tripple-car .tripple-car-head h1 {
+  font-size: 24px !important;
+}
+.tripple-car-image{
+  padding: 20px 60px;
+}
+.tripple-car .tripple-car-para p {
+  font-size: 14px !important;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+.tripple-car .tripple-car-para-head h1 {
+  font-size: 24px !important;
+}
+.maintain-best .maintain-best-head h1 {
+  font-size: 24px !important;
+}
+.maintain-best-image{
+  padding: 20px 60px;
+}
+.maintain-best .maintain-best-para p {
+  font-size: 14px !important;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+.interest-head{
+  padding-left:15px;
+}
+.interest .interest-head h1 {
+  font-size: 24px !important;
+  text-align: center;
+}
+.aboutus .contact-head h1 {
+  font-size: 30px !important;
+}
+.content{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.content-sect .content p {
+  font-size: 14px !important;
+}
+.content-sect {
+  padding-top: 35px;
+  padding-bottom: 0px;
+}
+.aboutus {
+  background: #141821;
+  padding-bottom: 40px;
+}
+.aboutus-image .outer-image .inner-image {
+  height: 245px;
+  margin-bottom: 10px;
+  padding-top: 50px;
+}
+.aboutus-image .outer-image .name {
+  font-size: 20px !important;
+}
+.aboutus-image .outer-image .title {
+  font-size: 20px !important;
+}
+.service-resp{
+  display: block;
+  background: #d62570;
+  padding: 0px 0px 20px 0px;
+  margin-bottom: 0px;
+  position: relative;
+}
+.service-resp .service-resp-box-logo{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.service-resp .service-resp-box-logo .box-logo img{
+  width: 100px;
+}
+.service-resp .service-resp-box-logo .box-logo p {
+  font-size: 21px !important;
+  color: white;
+}
+.service-resp .service-resp-box-logo .box-logo h1{
+font-size: 25px !important;
+color:#fff;
+}
+.service-resp .service-resp-box-logo .service-resp-text p{
+font-size: 15px!important;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 1.2;
+  padding-top: 15px;
+}
+.service-resp .service-resp-box-logo .box-logo p {
+  font-size: 14px !important;
+  letter-spacing: 1px;
+}
+.service-resp .services {
+  padding: 0px 300px 50px 0px;
+}  
+.service-image{
+  display:none;
+}
+.service-head {
+  top: 10%;
+}
+/* .reach-phone-image .blank .form {
+  border-radius: 30px;
+} */
+.reach-phone-image .blank .form h2 {
+  font-size: 15px !important;
+  margin-bottom: 30px;
+  letter-spacing: 0px;
+}
+.reach-phone-image .blank .form .borderbottom {
+  margin-bottom: 20px;
+}
+.reach-phone-image .form-sub-btn {
+  padding: 5px 0px;
+}
+.service-page .service-head h1 {
+  font-size: 30px !important;
+}
+.how .how-head h1 {
+  font-size: 30px !important;
+}
+.reachus .contact-head h1 {
+  font-size: 30px !important;
+}
+.reachus-image {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.how .circle-image .mobile-circle{
+  display: none;
+}
+.how .circle-image .mobile-line{
+  display: block;
+}
+.how .how-head {
+  top: 7%;
+}
+}
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .navbar{
+    flex-wrap: nowrap;
+  }
+  .building-section .building-content {
+    padding-left: 0px;
+  }
+  .vehicle-section .vehicle-head {
+    padding-right: 0px;
+  }
+  .mobile-comp .mobile-comp-image {
+    padding-right: 0px;
+  }
+  .valet-operation {
+    padding: 0px;
+  }
+  .say-good-bye {
+    padding: 0px;
+  }
+  .meet-the-demand {
+    padding: 0px;
+  }
+  .tripple-car {
+    padding: 0px;
+  }
+  .maintain-best {
+    padding: 0px;
+  }
+  .terms .terms-head h1 {
+    font-size: 30px !important;
+}
+.valet-business .valet-business-head h1 {
+  font-size: 25px !important;
+}
+.terms .terms-head {
+  padding: 0;
+}
+.terms {
+  padding-bottom: 35px;
+}
+  .aboutus-logo {
+    padding-bottom: 35px;
+}
+.footer-prkr .input-email {
+  padding-left: 0px; 
+  width: 40%;
+}
+.privacy-main {
+  padding-bottom: 40px;
+}
+  .privacy .privacy-content {
+    padding: 0;
+}
+  .privacy-main .privacy-main-head h1 {
+    font-size: 35px !important;
+}
+  .aboutus-image .maincard{
+    padding: 50px 50px;
+  }
+  .footer-prkr .form-inline .form ::placeholder {
+    color: #fff !important;
+    font-size:12px;
+  }
+  .footer-prkr .copy-right p {
+    text-align: center;
+}
+  .service-image{
+    display:none;
+  }
+  .privacy .privacy-content .normal-para {
+    font-size: 15px !important;
+    line-height: 1.2;
+    padding-left: 15px;
+    letter-spacing: 1px;
+}
+.privacy .privacy-content .main-para {
+  font-size: 18px !important;
+  padding-left: 15px;
+}
+.privacy {
+  padding-bottom: 0px;
+  margin-top: 0;
+  padding-top: 0;
+}
+  .footer-prkr .copy-right {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.how .circle-image .mobile-circle{
+  display: none;
+}
+.how .circle-image .mobile-line{
+  display: block;
+}
+.how .how-head {
+  top: 6%;
+}
+  .service-resp{
+    display: block;
+    background: #d62570;
+    padding: 0px 0px 20px 0px;
+    margin-bottom: 0px;
+    position: relative;
+    width: 100%;
+  }
+  .service-resp .service-resp-box-logo{
+    text-align: center;
+  }
+  .service-resp .service-resp-box-logo .box-logo img{
+    width: 120px;
+  }
+  .service-resp .service-resp-box-logo .box-logo p {
+    font-size: 21px !important;
+    color: white;
+}
+.service-resp .service-resp-box-logo .box-logo h1{
+  font-size: 25px !important;
+  color:#fff;
+}
+.service-resp .service-resp-box-logo .service-resp-text p{
+  font-size: 15px!important;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    padding-top: 15px;
+}
+  .service-resp .services {
+    padding: 0px 300px 50px 0px;
+  }  
+  .logo-image {
+    width: 215px !important;
+  }
+  .logo-peter .center {
+    padding: 0px 40px 20px 40px;
+    width: 35%;
+    margin-bottom: 0px;
+  }
+  .logo-peter .logo-text {
+    width: 230px;
+    margin-bottom: 15px;
+  }
+  .what-we-do .logo-peter h1 {
+    letter-spacing: 2px;
+    font-size: 18px !important;
+  }
+  .what-we-do .logo-peter h2 {
+    letter-spacing: 1px;
+    font-size: 14px !important;
+    margin-bottom: 85px;
+  }
+  .footer-prkr .sbmt-btn {
+    right: 92px !important;
+  }
+  .footer-prkr .sbmt-btn {
+    bottom: 76px;
+    height: 30px;
+    padding: 1px 0px;
+  }
+  .footer-prkr .copy-right .text-right {
+    text-align: center !important;
+  }
+  .what-we-can-head {
+    padding: 70px 15px;
+  }
+  .what-we-can-head h1 {
+    font-size: 30px !important;
+  }
+  .navbar-nav {
+    display: inline-block;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  .navbar-collapse {
+    z-index: 9999 !important;
+    position: absolute;
+    left: 0;
+    top: 56px;
+    width: 100%;
+    background-color: black;
+    text-align: center !important;
+  }
+  .what-we-do .what-we-head h1 {
+    font-size: 30px !important;
+    margin-right:0;
+  }
+  .what-we-do-para .what-we-para {
+    margin-left: 0;
+    margin-right: 0;
+}
+  .what-we-do-para .what-we-para p {
+    line-height: 1.2;
+    font-size: 15px !important;
+  }
+  .yellow .head-para {
+    top: 40%;
+  }
+  .yellow .head-para h1 {
+    font-size: 44px !important;
+  }
+  .yellow .head-para p {
+    font-size: 13px !important;
+  }
+  .yellow .service-text {
+    bottom: 0%;
+    right: 0;
+    margin-right: 15px;
+  }
+  .yellow .service-text h1 {
+    font-size: 36px !important;
+  }
+  .yellow .service-text button {
+    border-radius: 6px;
+    border: 2px solid #fff;
+    padding: 3px 6px;
+    font-weight: 700;
+    font-size: 16px !important;
+    width: 130px;
+  }
+  .hass {
+    margin-top: 0px;
+}
+  .youtube-logo img {
+    width: 120px;
+  }
+  .pink-logo p {
+    font-size: 21px !important;
+  }
+  .pink-logo h1 {
+    font-size: 25px !important;
+  }
+  .if-there .head-para {
+    top: 39%;
+  }
+  .if-there .head-para h1 {
+    font-size: 30px !important;
+  }
+  .if-there .head-para p {
+    font-size: 15px !important;
+  }
+  .hassle-free .hassle-free-head h1 {
+    font-size: 30px !important;
+  }
+  .hassle-free .hassle-free-head .safe {
+    font-size: 20px !important;
+  }
+  .hassle-free .hassle-free-head p {
+    font-size: 15px !important;
+  }
+  .footer-prkr .footer-head .what-are {
+    letter-spacing: 2px;
+  }
+  .footer-prkr .footer-head h1 {
+    font-size: 30px !important;
+  }
+  .social-icons {
+    margin-bottom: 45px;
+  }
+  .btn-store {
+    margin-bottom: 20px;
+  }
+  .footer-prkr .footer-head .stay {
+    font-size: 30px !important;
+  }
+  .footer-prkr .icons ul li {
+    margin-right: 10px;
+  }
+  .footer-prkr .icons {
+    margin-bottom: 45px;
+  }
+  .footer-prkr .footer-head h2 {
+    font-size: 20px !important;
+  }
+  .service-page .service-image .keys .key-image {
+    top: 12% !important;
+    right: 34% !important;
+  }
+  .service-page .service-image .key-image img {
+    width: 120px;
+  }
+  .service-page .service-image .key-image h1 {
+    color: #fff;
+    font-size: 15px !important;
+  }
+  .service-page .service-image .keys .key-aed {
+    margin-bottom: 30px;
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+  }
+  .service-page .service-content p {
+    line-height: 1.2;
+    font-size: 15px !important;
+    letter-spacing: 1px;
+  }
+  .service-page .service-content-second p {
+    line-height: 1.2;
+    font-size: 15px !important;
+    letter-spacing: 1px;
+  }
+  .service-page .service-image .key-aed h1 {
+    font-size: 30px !important;
+  }
+  .building-image {
+    padding: 50px 80px;
+  }
+  .vehicle-section .vehicle-head h1 {
+    font-size: 30px !important;
+  }
+  .valet-operation .valet-content-head h1 {
+    font-size: 30px !important;
+  }
+  .valet-image {
+    padding: 50px 80px;
+  }
+  .valet-operation .valet-content-para p {
+    font-size: 15px !important;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+  .say-good-bye .say-good-head h1 {
+    font-size: 30px !important;
+  }
+  .say-image {
+    padding: 50px 80px;
+  }
+  .say-good-bye .say-good-para p {
+    font-size: 15px !important;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+  .meet-the-demand .meet-head h1 {
+    font-size: 30px !important;
+  }
+  .meet-image {
+    padding: 50px 80px;
+  }
+  .meet-the-demand .meet-para p {
+    font-size: 15px !important;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+  .meet-the-demand .meet-para {
+    margin-bottom: 60px;
+  }
+  .meet-the-demand .meet-para-head h1 {
+    font-size: 23px !important;
+  }
+  .say-good-bye .say-good-para-head h1 {
+    font-size: 23px !important;
+}
+  .tripple-car .tripple-car-head h1 {
+    font-size: 30px !important;
+  }
+  .tripple-car-image {
+    padding: 50px 80px;
+  }
+  .tripple-car .tripple-car-para p {
+    font-size: 15px !important;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+  .tripple-car .tripple-car-para-head h1 {
+    font-size: 23px !important;
+  }
+  .maintain-best .maintain-best-head h1 {
+    font-size: 30px !important;
+  }
+  .maintain-best-image {
+    padding: 50px 60px;
+  }
+  .maintain-best .maintain-best-para p {
+    font-size: 15px !important;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+  .interest-head {
+    padding: 0px 15px;
+    text-align: center;
+  }
+  .how-it-works {
+    padding-top: 50px;
+  }
+  .cars .head-para {
+    top: 70%;
+    z-index: 1;
+    margin-left: 0;
+    padding-left:15px;
+  }
+  .how-it-works .triple-image {
+    margin-left: 0px;
+    padding-left:15px;
+}
+  .cars .head-para h1 {
+    font-size: 30px !important;
+    letter-spacing: 1px;
+  }
+  .cars .head-para p {
+    font-size: 14px !important;
+    margin-bottom: 10px;
+  }
+  .cars .head-para button {
+    padding: 0px 9px;
+    font-size: 19px;
+  }
+  .hassle-free-head {
+    padding-left: 15px;
+  }
+  .interest .interest-head h1 {
+    letter-spacing: 2px;
+    font-size: 30px !important;
+  }
+  .business-cones .square {
+    padding: 50px 100px;
+  }
+  .business-cones .circle {
+    padding: 50px 100px;
+  }
+  .business-cones .cone {
+    padding: 50px 100px;
+  }
+  .aboutus-image .image-div {
+    padding: 50px 80px;
+  }
+  .aboutus-image .outer-image .inner-image {
+    padding-top: 40px;
+    height: 239px;
+    margin-bottom: 10px;
+  }
+  .aboutus-image .outer-image .name {
+    font-size: 15px !important;
+  }
+  .aboutus-image .outer-image .title {
+    font-size: 15px !important;
+  }
+  .content-sect .content p {
+    font-size: 15px !important;
+    line-height: 1.2;
+    text-align: justify;
+    padding: 0 15px;
+    letter-spacing: 1px;
+  }
+  .content-sect {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .service-head {
+    top: 12%;
+  }
+  .service-page .service-head h1 {
+    font-size: 40px !important;
+    letter-spacing: 2px;
+  }
+  .building-section .building-content p {
+    font-size: 15px !important;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+  .reachus-image .square {
+    padding: 50px 100px;
+  }
+  .reachus-image .circle {
+    padding: 50px 100px;
+  }
+  .reachus-image .cone {
+    padding: 50px 100px;
+  }
+  .reach-phone-image .blank .form h2 {
+    font-size: 20px !important;
+    margin-bottom: 40px;
+  }
+  .reach-phone-image .blank .form .borderbottom {
+    margin-bottom: 45px;
+  }
+  .reach-phone-image .form-sub-btn {
+    padding: 10px 0px;
+  }
+  .aboutus .contact-head h1 {
+    font-size: 40px !important;
+  }
+  .how .how-head h1 {
+    font-size: 40px !important;
+  }
+  .reachus .contact-head h1 {
+    font-size: 40px !important;
+  }
+  .aboutus {
+    padding-bottom: 30px;
+  }
+  .reachus-image {
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  .reach-phone-image .blank .form ::placeholder {
+    color: #fff !important;
+    font-size: 20px;
+  }
+  .reach-phone-image .blank .form label {
+    font-size: 20px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-collapse {
+    z-index: 9999 !important;
+    position: absolute;
+    left: 0;
+    top: 56px;
+    width: 100%;
+    background-color: black;
+    text-align: center !important;
+  }
+  .aboutus-image .box .name {
+    font-size: 23px !important;
+}
+.aboutus-image .box .title {
+  font-size: 28px !important;
+}
+  .aboutus-image .card .box {
+    padding-top: 50px;
+  }
+  .what-we-can-head {
+    padding-left: 15px;
+}
+  .valet-business .valet-business-head h1 {
+    font-size: 50px !important;
+}
+  .building-section .building-content {
+    padding-left: 0px;
+  }
+  .vehicle-section .vehicle-head {
+    padding-right: 0px;
+  }
+  .mobile-comp .mobile-comp-image {
+    padding-right: 0px;
+  }
+  .valet-operation {
+    padding: 0px;
+  }
+  .say-good-bye {
+    padding: 0px;
+  }
+  .meet-the-demand {
+    padding: 0px;
+  }
+  .tripple-car {
+    padding: 0px;
+  }
+  .maintain-best {
+    padding: 0px;
+  }
+  .terms .terms-head h1 {
+    font-size: 60px !important;
+}
+.privacy-main {
+  padding-bottom: 50px;
+}
+.terms {
+  padding-bottom: 50px;
+}
+.privacy {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.terms .terms-head {
+  padding: 0;
+}
+  .privacy-main .privacy-main-head h1 {
+    font-size: 60px !important;
+}
+  .content-sect .content{
+    padding: 0px 100px;
+  }
+  .footer-prkr .sbmt-btn {
+    right: 122px;
+  }
+  .logo-peter .center {
+    width: 26%;
+  }
+  .logo-peter .logo-text {
+    width: 360px;
+    margin-bottom: 70px;
+  }
+  .navbar-nav {
+    display: inline-block;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  /* .navbar-nav .active a:before {
+    content: "";
+    left: 50% !important;
+    width: 30% !important;
+    position: absolute;
+    top: 37px !important;
+    height: 2px !important;
+    background: #fafcff;
+    transform: translate(-50%, -50%);
+  } */
+  .what-we-do .logo-peter h1 {
+    font-size: 28px !important;
+  }
+  .what-we-do .logo-peter h2 {
+    letter-spacing: 4px;
+    font-size: 18px !important;
+  }
+  .how .how-head h1 {
+    font-size: 50px !important;
+    letter-spacing: 2px;
+  }
+  .how .how-head {
+    top: 15%;
+  }
+  .service-page .service-head h1 {
+    font-size: 50px !important;
+  }
+  .aboutus .contact-head h1 {
+    font-size: 50px !important;
+  }
+  .reachus .contact-head h1 {
+    font-size: 50px !important;
+  }
+  .building-section .building-content p {
+    font-size: 22px !important;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+  .building-section .building-image {
+    padding: 30px 175px 0px 175px!important;
+  }
+  .vehicle-section .vehicle-head h1 {
+    font-size: 50px !important;
+  }
+  .valet-operation .valet-content-para p {
+    font-size: 22px !important;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+  .say-good-bye .say-good-para p {
+    font-size: 22px !important;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+  .meet-the-demand .meet-para p {
+    font-size: 22px !important;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+  .tripple-car .tripple-car-para p {
+    font-size: 22px !important;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+  .maintain-best .maintain-best-para p {
+    font-size: 22px !important;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+  .valet-image {
+    padding: 20px 175px 10px 175px;
+  }
+  .say-image {
+    padding: 20px 175px 15px 175px;
+  }
+  .meet-image {
+    padding: 20px 160px 15px 160px;
+  }
+
+  .tripple-car-image {
+    padding: 20px 160px 15px 160px;
+  }
+
+  .maintain-best-image {
+    padding: 20px 160px 15px 160px;
+  }
+
+  .interest .interest-head h1 {
+    letter-spacing: 1px;
+    font-size: 38px !important;
+    text-align: center;
+  }
+
+  .business-cones .square {
+    padding: 60px 185px;
+    text-align: center;
+  }
+
+  .business-cones .circle {
+    padding: 60px 185px;
+    text-align: center;
+  }
+
+  .business-cones .cone {
+    padding: 60px 185px;
+    text-align: center;
+  }
+
+  .what-we-can-head h1 {
+    letter-spacing: 2px;
+    font-size: 40px !important;
+  }
+
+  .valet-operation .valet-content-head h1 {
+    font-size: 40px !important;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+  }
+
+  .say-good-bye .say-good-head h1 {
+    font-size: 40px !important;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+  }
+
+  .meet-the-demand .meet-head h1 {
+    font-size: 40px !important;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+  }
+
+  .tripple-car .tripple-car-head h1 {
+    font-size: 40px !important;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+  }
+
+  .maintain-best .maintain-best-head h1 {
+    font-size: 40px !important;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+  }
+
+  .meet-the-demand .meet-para {
+    margin-bottom: 30px;
+  }
+
+  .meet-the-demand .meet-para-head h1 {
+    font-size: 30px !important;
+  }
+
+  .say-good-bye .say-good-para-head h1 {
+    font-size: 30px !important;
+}
+  .tripple-car .tripple-car-para {
+    margin-bottom: 30px;
+  }
+
+  .tripple-car .tripple-car-para-head h1 {
+    font-size: 30px !important;
+    color: #fff;
+  }
+
+  .what-we-do .what-we-head h1 {
+    color: white;
+    font-size: 45px !important;
+  }
+
+  .what-we-do-para .what-we-para p {
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-size: 22px !important;
+  }
+
+  .cars .head-para {
+    top: 65%;
+  }
+
+  .cars .head-para h1 {
+    font-size: 44px !important;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+
+  .cars .head-para p {
+    font-size: 20px !important;
+    color: #fff;
+    margin-bottom: 0px;
+  }
+
+  .cars .head-para button {
+    background: transparent;
+    color: #000;
+    height: 32px;
+    border: 2px solid #000;
+    padding: 2px 6px;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 137px;
+  }
+
+  .yellow .head-para h1 {
+    font-size: 88px !important;
+  }
+
+  .yellow .head-para p {
+    font-size: 24px !important;
+  }
+
+  .yellow .service-text {
+    right: 0;
+  }
+  .hass {
+    margin-top: -35px;
+}
+  .yellow .service-text h1 {
+    font-size: 60px !important;
+  }
+
+  .yellow .service-text button {
+    border-radius: 8px !important;
+    border: 2px solid #fff;
+    height: 32px;
+    padding: 2px 6px;
+    width: 144px;
+    font-size: 16px;
+  }
+
+  .pink-logo p {
+    font-size: 22px !important;
+  }
+
+  .if-there .head-para h1 {
+    font-size: 56px !important;
+  }
+
+  .if-there .head-para p {
+    font-size: 28px !important;
+  }
+
+  .hassle-free .hassle-free-head h1 {
+    font-size: 40px !important;
+  }
+
+  .hassle-free .hassle-free-head .safe {
+    font-size: 22px !important;
+  }
+
+  .hassle-free .hassle-free-head p {
+    font-size: 22px !important;
+  }
+
+  .content-sect .content p {
+    font-size: 22px !important;
+    line-height: 1.2;
+    letter-spacing: 1px;
+  }
+
+  .aboutus-image .image-div {
+    padding: 50px 150px;
+    background: #141821;
+  }
+
+  .service-page .service-image .keys .key-image {
+    top: 20%;
+    right: 6%;
+  }
+
+  .service-page .service-content p {
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 22px !important;
+  }
+
+  .service-page .service-content-second p {
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 22px !important;
+  }
+
+  .reachus-image .square {
+    padding: 60px 185px;
+    text-align: center;
+  }
+
+  .reachus-image .circle {
+    padding: 60px 185px;
+    text-align: center;
+  }
+
+  .reachus-image .cone {
+    padding: 60px 185px;
+    text-align: center;
+  }
+
+  .reach-phone-image .hand {
+    padding: 50px 130px;
+  }
+
+  .reach-phone-image .blank {
+    padding: 50px 130px;
+  }
+
+  .btn-store .btn-caption {
+    font-size: 26px;
+  }
+
+  .footer-prkr .footer-head h1 {
+    font-size: 38px !important;
+  }
+
+  .footer-prkr .footer-head .what-are {
+    letter-spacing: 2px;
+  }
+
+  .footer-prkr .footer-head .stay {
+    font-size: 38px !important;
+  }
+
+  .footer-prkr .footer-head h2 {
+    font-size: 24px !important;
+  }
+
+  .privacy .privacy-content .normal-para {
+    line-height: 1.2;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .logo-peter .center {
+    width: 20%;
+  }
+  .aboutus-image .box .name {
+    font-size: 21px !important;
+}
+.aboutus-image .box .title {
+  font-size: 25px !important;
+}
+  .valet-business .valet-business-head h1 {
+    font-size: 70px !important;
+}
+.what-we-can-head h1 {
+  font-size: 70px !important;
+}
+  .terms .terms-head h1 {
+    font-size: 80px !important;
+}
+.terms .terms-head {
+  padding: 0;
+}
+  .privacy {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.privacy-main {
+  padding-bottom: 60px;
+}
+  .privacy-main .privacy-main-head h1 {
+    font-size: 80px !important;
+}
+  .aboutus-image .maincard{
+    padding: 50px 50px;
+  }
+  .content-sect .content{
+    padding: 0px 100px;
+  }
+  .yellow .service-text h1 {
+    font-size: 90px !important;
+}
+  .content-sect .content p {
+    font-size: 22px !important;
+    line-height: 1.4;
+  }
+  .how .how-head {
+    top: 12%;
+  }
+  .aboutus .contact-head h1 {
+    font-size: 130px !important;
+  }
+  .aboutus-image .image-div {
+    padding: 50px 0px;
+}
+  .reachus .contact-head h1 {
+    font-size: 130px !important;
+  }
+  .service-head {
+    top: 12%;
+  }
+  .service-page .service-head h1 {
+    font-size: 120px !important;
+  }
+  .how .how-head h1 {
+    font-size: 120px !important;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 8px;
+    letter-spacing: 1px;
+  }
+  .valet-operation .valet-content-head h1 {
+    font-size: 50px !important;
+}
+  .navbar-brand{
+    margin-right:0;
+    width:35%;
+  }
+  .navbar-nav .active a:before {
+    left: 50% !important;
+  }
+  .building-section .building-content p {
+    letter-spacing: 1px;
+    line-height: 1.4;
+    font-size: 28px !important;
+  }
+  .meet-the-demand .meet-para {
+    margin-bottom: 80px;
+  }
+
+  .meet-the-demand .meet-para-head h1 {
+    font-size: 29px !important;
+  }
+  .say-good-bye .say-good-para-head h1 {
+    font-size: 29px !important;
+}
+  .tripple-car .tripple-car-para {
+    margin-bottom: 60px;
+  }
+
+  .vehicle-section .vehicle-head h1 {
+    font-size: 70px !important;
+  }
+
+  .valet-operation .valet-content-para p {
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-size: 28px !important;
+  }
+  .say-good-bye .say-good-head h1 {
+    font-size: 50px !important;
+}
+.meet-the-demand .meet-head h1 {
+  font-size: 50px !important;
+}
+  .say-good-bye .say-good-para p {
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-size: 28px !important;
+  }
+
+  .meet-the-demand .meet-para p {
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-size: 28px !important;
+  }
+  .tripple-car .tripple-car-head h1 {
+    font-size: 50px !important;
+  }
+  .tripple-car .tripple-car-para p {
+    line-height: 1.4;
+    letter-spacing: 1px;
+      font-size: 28px !important;
+  }
+  .maintain-best .maintain-best-head h1 {
+    font-size: 50px !important;
+}
+  .maintain-best .maintain-best-para p {
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-size: 28px !important;
+  }
+  .footer-prkr .copy-right p {
+    font-size: 16px !important;
+  }
+  .footer-prkr .footer-head h1 {
+    margin-bottom: 45px;
+    font-size: 40px !important;
+  }
+  .footer-prkr .footer-head .stay {
+    font-size: 40px !important;
+  }
+  .interest .interest-head h1 {
+    letter-spacing: 1px;
+    font-size: 39px !important;
+    text-align: center;
+  }
+  .cars .head-para {
+    top: 63%;
+  }
+  .cars .head-para h1 {
+    font-size: 40px !important;
+  }
+  .cars .head-para p {
+    font-size: 20px !important;
+  }
+  .footer-prkr .sbmt-btn {
+    right: 162px;
+  }
+  .what-we-do .logo-peter h2 {
+    font-size: 20px !important;
+  }
+  .what-we-do .logo-peter h1 {
+    font-size: 30px !important;
+  }
+  .what-we-do .logo-peter p {
+    font-size: 14px !important;
+  }
+  .if-there .head-para {
+    top: 39%;
+  }
+  .yellow .head-para h1 {
+    font-size: 115px !important;
+  }
+  .yellow .head-para p {
+    font-size: 33px !important;
+  }
+  .pink-logo p {
+    font-size: 20px;
+  }
+  .pink-logo h1 {
+    font-size: 25px !important;
+  }
+  .if-there .head-para h1 {
+    font-size: 75px !important;
+  }
+  .if-there .head-para p {
+    font-size: 40px !important;
+  }
+  .cars .head-para {
+    top: 65% !important;
+  }
+  .cars .head-para .how-it {
+    font-size: 50px !important;
+  }
+  .cars .head-para .that-right {
+    font-size: 25px !important;
+  }
+  .service-page .service-image .keys .key-image {
+    top: 27%;
+    right: 5%;
+  }
+  .reach-phone-image .blank .form h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 22px !important;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+  }
+  .reach-phone-image .blank .form .borderbottom {
+    border-bottom: 2px solid #fff;
+    margin-bottom: 40px;
+  }
+  .reach-phone-image .form-sub-btn {
+    padding: 0px 0px;
+  }
+  .aboutus-image .outer-image .name {
+    font-size: 22px !important;
+    color: #fff;
+  }
+  .aboutus-image .outer-image .title {
+    font-size: 18px !important;
+    color: #fff;
+  }
+  .content-sect {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+  .cars .head-para {
+    position: absolute;
+    color: #ffffff;
+    text-align: left;
+    top: 66%;
+    z-index: 1;
+  }
+  .service-head {
+    top: 15%;
+  }
+  .service-page .service-head h1 {
+    font-size: 150px !important;
+}
+  .aboutus-image .box .name {
+    font-size: 23px !important;
+}
+  .reachus .contact-head h1 {
+    font-size: 170px !important;
+}
+  .terms .terms-head {
+    padding: 0px;
+}
+  .privacy {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.privacy-main {
+  padding-bottom: 70px;
+}
+  .privacy-main .privacy-main-head h1 {
+    font-size: 80px !important;
+}
+  .valet-operation .valet-content-head{
+    padding: 0 38px 0 0;
+  }
+  .say-good-bye .say-good-head{
+    padding: 0 38px 0 0;
+  }
+  .meet-the-demand .meet-head{
+    padding: 0 38px 0 0;
+  }
+  .tripple-car .tripple-car-head{
+    padding: 0 38px 0 0;
+  }
+  .maintain-best .maintain-best-head{
+    padding: 0 38px 0 0;
+
+  }
+  .terms .terms-head h1 {
+    font-size: 80px !important;
+}
+  .valet-business .valet-business-head h1 {
+    font-size: 70px !important;
+}
+.what-we-can-head h1 {
+  font-size: 100px !important;
+}
+.vehicle-section .vehicle-head h1 {
+  font-size: 100px !important;
+}
+  .circle-image .circleimg{
+    padding: 0px 100px;
+  }
+  .aboutus-image .maincard{
+    padding: 50px 50px;
+  }
+  .content-sect .content{
+    padding: 0px 100px;
+  }
+  .navbar-brand{
+    margin-right:0;
+  }
+  .yellow .service-text h1 {
+    font-size: 95px !important;
+}
+  .cars .head-para h1 {
+    font-size: 75px !important;
+}
+.cars .head-para p {
+  font-size: 30px !important;
+}
+  .yellow .head-para h1 {
+    color: #fff;
+    font-size: 165px !important;
+    line-height: 0.6;
+}
+.yellow .head-para p {
+  font-size: 45px !important;
+}
+.if-there .head-para h1 {
+    color: #fff;
+    line-height: 0.6;
+    font-size: 87px !important;
+}
+.if-there .head-para p {
+  font-size: 40px !important;
+}
+  .how-it-works {
+    padding-top: 50px;
+}
+  /* .yellow .service-text {
+    right: 12%;
+  } */
+  .service-page .service-image .keys .key-image {
+    top: 35%;
+    right: 11%;
+  }
+  .what-we-do .logo-peter h1 {
+    font-size: 40px !important;
+  }
+  .tripple-car .tripple-car-para {
+    margin-bottom: 50px;
+  }
+  .reach-phone-image .blank .form .borderbottom {
+    margin-bottom: 68px;
+  }
+  .footer-prkr .footer-head h1 {
+    margin-bottom: 50px;
+  }
+  .how .how-head {
+    top: 10%;
+  }
+  .how .how-head h1 {
+    font-size: 150px !important;
+}
+.aboutus-image .image-div {
+  padding: 50px 30px;
+}
+  .logo-peter .center {
+    width: 20%;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1720px){
+  .service-page .service-image .keys .key-image {
+    top: 36%;
+    right: 11%;
+}
+.how .how-head h1 {
+  font-size: 220px !important;
+}
+.terms .terms-head h1 {
+  font-size: 115px !important;
+}
+.valet-business .valet-business-head h1 {
+  font-size: 100px !important;
+}
+.vehicle-section .vehicle-head h1 {
+  font-size: 140px !important;
+}
+.what-we-can-head h1 {
+  font-size: 140px !important;
+}
+.content-sect .content{
+  padding: 0px 100px;
+}
+.circle-image .circleimg{
+  padding: 0 100px;
+}
+.aboutus-image .maincard{
+  padding: 50px 50px;
+}
+.if-there .head-para h1 {
+  color: #fff;
+  line-height: 0.6;
+  font-size: 105px !important;
+}
+.cars .head-para {
+  top: 64%;
+}
+.yellow .head-para h1 {
+  font-size: 165px !important;
+}
+.yellow .head-para p {
+  font-size: 47px !important;
+}
+}
+@media only screen and (min-width: 1721px) and (max-width: 1865px){
+  .cars .head-para {
+    top: 71%;
+}
+.terms .terms-head h1 {
+  font-size: 140px !important;
+}
+.circle-image .circleimg{
+  padding: 100px 100px;
+}
+.aboutus-image .maincard{
+  padding: 50px 50px;
+}
+.if-there .head-para h1 {
+  font-size: 125px !important;
+}
+.content-sect .content{
+  padding: 0px 100px;
+}
+}
+@media only screen and (min-width: 1866px) and (max-width: 1940px){
+  .aboutus-image .maincard{
+    padding: 50px 100px;
+  }
+  .content-sect .content{
+    padding: 0px 100px;
+  }
+  .circle-image .circleimg{
+    padding: 100px 100px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-control {
+  background: #eaeaeab8;
+  border: none;
+  box-shadow: 0px 1px 7px hsla(0, 0%, 37%, 0.3607843137);
+}
+.form-element-field::-webkit-input-placeholder,
+.form-control::-webkit-input-placeholder {
+  font-size: 18px;
+  padding-left: 0px;
+}
+.form-element-field:-ms-input-placeholder,
+.form-control:-ms-input-placeholder {
+  font-size: 18px;
+  padding-left: 0px;
+}
+.form-element-field::placeholder,
+.form-control::placeholder {
+  font-size: 18px;
+  padding-left: 0px;
+}
+.navbar-nav .active a {
+  position: relative;
+}
+.navbar-nav .active .dropdown-menu a:before {
+  background: none !important;
+  box-shadow: none !important;
+}
+.dropdown-item {
+  padding: .55rem 1.5rem;
+  border-top: 1px solid #e9ecef;
+}
+.dropdown-menu .dropdown-item:active {
+  background-color: #184287
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #184287;
+  color: #ffffff;
+}
